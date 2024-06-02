@@ -1,0 +1,55 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: azure;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    width: max-content;
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 15vh;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    background-color: #1F2937;
+}
+
+#header-logo {
+    margin-left: 20px;
+    height: 40px;
+}
+
+#hero ,#footer {
+    background-color: #1F2937;
+}
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+}
+
+#fun-facts {
+    width: 100vw;
+    height: 100vh;
+}
