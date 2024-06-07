@@ -32,7 +32,7 @@ nav ul {
     align-items: center;
     position: fixed;
     z-index: 1000;
-    background-color: #1F2937;
+    background-color: rgba(31, 41, 55,50%);
 }
 
 #header-logo {
@@ -47,6 +47,27 @@ nav ul {
 #hero {
     width: 100vw;
     height: 100vh;
+}
+
+#hero-content {
+    position: absolute;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#hero-img  img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+#hero-img {
+    width: 40%;
+}
+
+#hero-text {
+    width: 40%;
+    color: azure;
 }
 
 #fun-facts {
