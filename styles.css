@@ -84,6 +84,24 @@ nav ul {
     margin-top: 15vh;
 }
 
+#quote {
+    width: 100vw;
+    height: 60vh;
+    background-color: rgba(170,170,170,0.5);
+    padding-top: 10%;
+}
+
+#quote-content {
+    width: 70%;
+    margin: auto;
+    color: black;
+}
+
+#quote-text {
+    font-size: 56px;
+    
+}
+
 .fact {
     width: 20%;
 
