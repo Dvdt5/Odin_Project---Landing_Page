@@ -88,7 +88,7 @@ nav ul {
     width: 100vw;
     height: 60vh;
     background-color: rgba(170,170,170,0.5);
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 #quote-content {
@@ -100,6 +100,23 @@ nav ul {
 #quote-text {
     font-size: 56px;
     
+}
+
+#quote-owner {
+    font-weight: bold;
+}
+
+#join-us {
+    width: 100vw;
+    height: 40vh;
+}
+
+#join-content {
+    background-color: rgb(238, 255, 82);
+    width: 70%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10%;
 }
 
 .fact {
