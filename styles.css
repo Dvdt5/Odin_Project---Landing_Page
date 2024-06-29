@@ -37,7 +37,7 @@ nav ul {
 
 #header-logo {
     margin-left: 20px;
-    height: 40px;
+    height: 70px;
 }
 
 #hero ,#footer {
@@ -117,6 +117,27 @@ nav ul {
     border-radius: 5px;
     margin: auto;
     margin-top: 10%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#join-text {
+    width: 80%;
+    display: block;
+}
+
+#join-button {
+    width: 10%;
+    display: block;
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 5px;
+    font-size: large;
+}
+
+#join-button:hover {
+    background-color: rgb(200, 200, 82);
 }
 
 .fact {
