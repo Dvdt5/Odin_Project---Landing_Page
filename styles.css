@@ -68,6 +68,7 @@ nav ul {
 #hero-text {
     width: 40%;
     color: azure;
+    padding: 20px;
 }
 
 #fun-facts {
@@ -138,6 +139,12 @@ nav ul {
 
 #join-button:hover {
     background-color: rgb(200, 200, 82);
+}
+
+#footer-section {
+    padding: 20px;
+    text-align: center;
+    color: white;
 }
 
 .fact {
